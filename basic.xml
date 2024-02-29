@@ -1,5 +1,12 @@
 <testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="1.9515689999999999">
   <testsuite name="example.test.js" timestamp="2024-02-29T00:20:34.283Z" hostname="e2e" tests="1" failures="0" skipped="0" time="1.273" errors="0">
-    <testcase name="basic test" classname="example.test.js" time="1.273" file="/mnt/ramdisk/www/tests/example.test.js"> </testcase>
+      <properties>
+        <property name="version" value="1.2.3" />
+      </properties>
+    <testcase name="basic test" classname="example.test.js" time="1.273" file="/mnt/ramdisk/www/tests/example.test.js">
+      <properties>
+        <property name="foobar" value="fizzbuzz" />
+      </properties>
+    </testcase>
   </testsuite>
 </testsuites>
