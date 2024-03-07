@@ -4,7 +4,7 @@ jobs:
   build:
     docker:
       - image: cimg/base:current
-    resource_class: medium
+    resource_class: arm.medium
     steps:
       - checkout
       - store_test_results:
